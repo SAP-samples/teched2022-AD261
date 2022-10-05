@@ -1,6 +1,6 @@
-# Level 1 Heading
+# Business Scenario
 
-In this exercise, you will...
+In this exercise, you will create an action project based on Sales Order API. The [Sales Order (A2X)](https://api.sap.com/api/API_SALES_ORDER_SRV/resource) API is already available in API Business Hub, for this workshop we will leverage Sales Order Header - POST API to create a sales order in S/4HANA Cloud system after the approval is done.
 
 ## Level 2 Heading
 

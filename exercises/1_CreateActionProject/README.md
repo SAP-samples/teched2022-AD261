@@ -1,7 +1,6 @@
-# Create Action Project
+# Business Scenario
 
-### Overview
-In this exercise, you will create an action project based on Sales Order API. The [Sales Order (A2X)](https://api.sap.com/api/API_SALES_ORDER_SRV/resource) API is already available in API Business Hub, for this workshop we will leverage Sales Order Header - POST API to create an Action Project in SAP Process Automation that will eventually create a sales order in S/4HANA Cloud system after the approval is done.
+In this exercise, you will create an action project based on Sales Order API. The [Sales Order (A2X)](https://api.sap.com/api/API_SALES_ORDER_SRV/resource) API is already available in API Business Hub, for this workshop we will leverage Sales Order Header - POST API to create a sales order in S/4HANA Cloud system after the approval is done.
 
 
 ## Download API Specification

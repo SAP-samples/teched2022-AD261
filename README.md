@@ -14,15 +14,15 @@ The requirements to follow the exercises in this repository is to know basic of 
 
 ## Exercises
 
-- [Exercise 1 - Create Action Project](https://developers.sap.com/mission.sap-process-automation.html)
-- [Exercise 2 - Release and Public Action Project](https://developers.sap.com/tutorials/spa-subscribe-booster.html)
-- [Exercise 3 - Import Sample Business Process From Store](https://developers.sap.com/tutorials/spa-create-process.html)
-- [Exercise 4 - Add Destination Environment Variable](https://developers.sap.com/tutorials/spa-create-forms.html)
-- [Exercise 5 - Add and Configure Action in Business Process](https://developers.sap.com/tutorials/spa-create-process-condition.html)
-- [Exercise 6 - Release, Deploy and Test Business Process](https://developers.sap.com/tutorials/spa-run-process.html)
-- [Exercise 7 - Configure Launchpad](https://developers.sap.com/mission.sap-process-automation-boost.html)
-- [Exercise 8 - Run Business Process via Launchpad](https://developers.sap.com/tutorials/spa-create-automation.html)
-- [Exercise 9 - Access S/4HANA system](https://developers.sap.com/tutorials/spa-create-decision.html)
+- [Exercise 1 - Create Action Project](/exercises/1_CreateActionProject)
+- [Exercise 2 - Release and Publish Action Project](/exercises/2_PublishActionProject)
+- [Exercise 3 - Import Sample Business Process From Store](/exercises/3_ImportSampleProcess)
+- [Exercise 4 - Add Destination Environment Variable](/exercises/4_AddEnvironmentVariable)
+- [Exercise 5 - Add and Configure Action in Business Process](/exercises/5_AddAction)
+- [Exercise 6 - Release, Deploy and Test Business Process](/exercises/6_ReleaseAndDeployProcess)
+- [Exercise 7 - Configure Launchpad](/exercises/7_ConfigureLaunchpad)
+- [Exercise 8 - Run Business Process via Launchpad](/exercises/8_RunBusinessProcess)
+- [Exercise 9 - Access S/4HANA system](/exercises/9_AccessS4HANA)
 
 ## How to obtain support
 

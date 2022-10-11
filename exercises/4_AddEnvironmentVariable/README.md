@@ -19,7 +19,7 @@ For this workshop, a destination is already created in SAP BTP account. This des
 
 ## Add Destination in SAP Build Process Automation <a name="adddestination"></a>
 
-As there is only one pre-created destination for this workshop, the same destination is already added to the SAP Build Process Automation.
+> As there is only one pre-created destination for this workshop, the same destination is already added to the SAP Build Process Automation.
 
 To see the destination, go to **Settings** >> **Destinations** in your **Application Development Workbench** and search for **S4HANACloud**. You will see a destination with name **S4HANACloud_AD261** already added.
 

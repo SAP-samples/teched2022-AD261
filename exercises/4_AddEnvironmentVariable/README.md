@@ -33,11 +33,12 @@ To see the destination, go to **Settings** >> **Destinations** in your **Applica
 
 ## Add Environment Variable to Access Destination <a name="accessdestination"></a>
 
-1. Click to go back to **Lobby** and open your business project. From your project overview section, click to open **Order Processing** process.
+1. Click to go back to **Lobby** and open your business project.
+    - From your project overview section,
+        - click to open **Order Processing** process.
+        - In the process builder, click to open **Project Properties** from top-right corner of the page
 
-    - In the process builder, click to open **Project Properties** from top-right corner of the page
-
-    ![](images/destination_04.png)
+        ![](images/destination_04.png)
 
 2. In the **Project Properties** pop-up, select **Environment Variables** and click **Create** to create an environment variable for this business processes.
 

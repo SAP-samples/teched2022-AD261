@@ -10,7 +10,7 @@ This session introduces attendees how to modify or extend business processes wit
 
 ## Requirements
 
-The requirements to follow the exercises in this repository is to know basic of SAP Process Automation. Attend this virtual workshop to learn how to build process, decisions and RPA bots from scratch [AD182 - Build Process Automations and Extensions to SAP Solutions](https://go3.events.sap.com/sapteched/hybrid/2022/reg/flow/sap/saptech2022/sapteched2022catalog/page/catalog/session/1661198036950001EHbd)
+The requirements to follow the exercises in this repository is to know basic of SAP Build Process Automation. Attend this virtual workshop to learn how to build process, decisions and RPA bots from scratch [AD182 - Build Process Automations and Extensions to SAP Solutions](https://go3.events.sap.com/sapteched/hybrid/2022/reg/flow/sap/saptech2022/sapteched2022catalog/page/catalog/session/1661198036950001EHbd)
 
 ## Exercises
 

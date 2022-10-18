@@ -22,7 +22,7 @@ In this exercise, you will create an action project based on Sales Order API. Th
 
 ## Create Action Project <a name="createAction"></a>
 
-2.	Open [SAP Process Automation - Application Development Workbench Lobby](https://ad261-8v1n91fq-applicationdevelopment.lcnc.cfapps.us10.hana.ondemand.com/lobby) and click **Create** >> **Actions Project** option
+2.	Open [SAP Build Process Automation - Application Development Workbench Lobby](https://ad261-8v1n91fq-applicationdevelopment.lcnc.cfapps.us10.hana.ondemand.com/lobby) and click **Create** >> **Actions Project** option
 
    ![](images/ActionProject_02.png)
 
@@ -170,7 +170,7 @@ In this exercise, you will create an action project based on Sales Order API. Th
 
 
 
-With this you have successfully created, configured and tested the action project based on Sales Order API in SAP Process Automation.
+With this you have successfully created, configured and tested the action project based on Sales Order API in SAP Build Process Automation.
 
 ## Summary <a name="summary"></a>
 

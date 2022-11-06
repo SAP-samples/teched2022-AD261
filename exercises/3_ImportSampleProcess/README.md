@@ -1,42 +1,24 @@
-# Exercise 2 - Exercise 2 Description
+# Import Sample Process
+## Overview
+In this exercise, we will import a sample process into your project.
 
-In this exercise, we will create...
+## Import Sample as Template
 
-## Exercise 2.1 Sub Exercise 1 Description
+1. From the Lobby of SAP Process Automation, click on the store tab
 
-After completing these steps you will have created...
+![](images/ImportProject_31.jpg)
 
-1. Click here.
-<br>![](/exercises/ex2/images/02_01_0010.png)
+2. On the Store page, search for - "Sales Order Approvals - Sample" and once it loads, click "Create from Template"
 
-2.	Insert this line of code.
-```abap
-response->set_text( |Hello ABAP World! | ). 
-```
+![](images/ImportProject_31.jpg)
 
+3. In the "Project Name" field, type "Sales Order Approval - User000" with your user number in place of "000" and click "Create"
 
+![](images/ImportProject_31.jpg)
 
-## Exercise 2.2 Sub Exercise 2 Description
-
-After completing these steps you will have...
-
-1.	Enter this code.
-```abap
-DATA(lt_params) = request->get_form_fields(  ).
-READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
-  IF sy-subrc = 0.
-    response->set_status( i_code = 200
-                     i_reason = 'Everything is fine').
-    RETURN.
-  ENDIF.
-
-```
-
-2.	Click here.
-<br>![](/exercises/ex2/images/02_02_0010.png)
 
 ## Summary
 
-You've now ...
+You've now imported a sample process and are ready to configure it, starting with the environment variable
 
 Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)

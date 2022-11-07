@@ -15,7 +15,7 @@ In this exercise, you will create an action project based on Sales Order API. Th
 
 ## Download Open API Specification <a name="download"></a>
 
-1.	[Open](files/API_SALES_ORDER_SRV.zip) **Open API Specification** for **Sales Order (A2X)** API in your local file system.
+1.	[Download and Extract](files/API_SALES_ORDER_SRV.zip) **Open API Specification** zip file for **Sales Order (A2X)** API in your local file system.
 
     > Note: Open API specification of 2.x or 3.x or higher is needed for creating Action Project. For APIs that are available in [SAP API Business Hub](https://api.sap.com), you can directly download the specification from the API overview section. For example: The API specification that will be used for sales order creation in this exercise is downloaded from [here](https://api.sap.com/api/API_SALES_ORDER_SRV/overview)
 

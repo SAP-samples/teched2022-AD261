@@ -28,7 +28,7 @@ In this exercise, you will create an action project based on Sales Order API. Th
 
     | Username | Password    |
     | :------------- | :------------- |
-    | AD261_XXX <br> where XXX is the user number like AD261_000, AD261_001 etc.       | Acce$$teched22     |
+    | AD261_XXX <br> where XXX is the user number <br> like AD261_000, AD261_001 etc.       | Acce$$teched22     |
 
       ![](images/ActionProject_02.png)
 

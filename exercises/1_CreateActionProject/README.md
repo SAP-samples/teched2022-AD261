@@ -22,9 +22,15 @@ In this exercise, you will create an action project based on Sales Order API. Th
 
 ## Create Action Project <a name="createAction"></a>
 
-2.	Open [SAP Process Automation - Application Development Workbench Lobby](https://ad261-8v1n91fq-applicationdevelopment.lcnc.cfapps.us10.hana.ondemand.com/lobby) and click **Create**
+2.	Open [SAP Build | Lobby](https://ad261-8v1n91fq-applicationdevelopment.lcnc.cfapps.us10.hana.ondemand.com/lobby) with given username and password:
 
-  ![](images/ActionProject_02.png)
+    - then click **Create**
+
+    | Username | Password    |
+    | :------------- | :------------- |
+    | AD261_XXX <br> where XXX is the user number like AD261_000, AD261_001 etc.       | Acce$$teched22     |
+
+      ![](images/ActionProject_02.png)
 
 3. In the popup, click **Build an Automated Process** and then select **Actions**
 

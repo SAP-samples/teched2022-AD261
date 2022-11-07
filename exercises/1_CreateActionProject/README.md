@@ -125,7 +125,7 @@ In this exercise, you will create an action project based on Sales Order API. Th
   - In the popup, enter **/** and click **Add X-CSRF**
   > Note: Action project uses Destination service to execute the API. In the destination we have already create the URL Path as `https://my-api.s4hana.cloud.sap/sap/opu/odata/sap/API_SALES_ORDER_SRV` to call the API. So, while configuring XSRF token path you do not have to enter any explicit path rather use standard URL configured in the destination.
 
-      ![](images/ActionProject_15.png)
+    ![](images/ActionProject_15.png)
 
 9. With this you have configured the action project name, XSRF token and API input fields. **Save** the work.
 

@@ -17,9 +17,14 @@ For this workshop, the Launchpad service is added and configured in the SAP BTP 
 
 As the Launchpad site is already created, you will add a new tile to trigger the business process that was created in the previous section. This tile will be added to **SAP Process Automation** site and you will start the business process using this application.
 
-1. Click **Content Manager** > **My Content** tab.
+1. Click to [Open Launchpad](https://ad261-8v1n91fq.launchpad.cfapps.us10.hana.ondemand.com/site?siteId=493b85d5-0ecb-4a68-859b-e97e8ee1bf20#Shell-home) with the given username and password.
+    - Choose **Content Manager** > **My Content** tab.
 
-    ![Back My Content](images/Launchpad_22.png)
+    | Username | Password    |
+    | :------------- | :------------- |
+    | AD261_XXX <br> where XXX is the user number <br> like AD261_000, AD261_001 etc.       | Acce$$teched22     |
+
+  ![Back My Content](images/Launchpad_22.png)
 
 2. Choose **Process Trigger**.
 

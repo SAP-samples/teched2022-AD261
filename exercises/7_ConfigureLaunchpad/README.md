@@ -135,7 +135,7 @@ As the Launchpad site is already created, you will add a new tile to trigger the
 
     ![Tile](images/Launchpad_20.png)
 
-    > You can also see `MyInbox` and Process Workspace tiles added to the launchpad which can be used by the business users to access the tasks and monitor the processes respectively.
+    > You can also see `MyInbox` tile added to the launchpad which can be used by the business users to access the tasks.
 
     You will be redirected to the **Order Approval Request Form**.
 

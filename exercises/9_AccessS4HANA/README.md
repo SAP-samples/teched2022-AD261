@@ -9,7 +9,7 @@
 
 ## Overview <a name="overview"></a>
 
-Once you have successfully run the business process, a sales order will be created in the backend S/4HANA cloud system. Now let us check if the sales order was created in the system with the given purchase order number and other details (as filled in the approval form).
+Once you have successfully run the business process, a sales order will be created in the backend S/4HANA cloud system. Now let us check if the sales order was actually created in the system with the given purchase order number and other details (as filled in the approval form).
 
 ## Get Sales Order Number <a name="getsalesorder"></a>
 
@@ -35,8 +35,9 @@ Once you have successfully run the business process, a sales order will be creat
 
 2. Click to open [S/4HANA Cloud System](https://my401669.s4hana.cloud.sap/ui#Shell-home)
 
-    - Username : AD261_XXX where XXX is the user number like AD261_000, AD261_001 etc.
-    - Password: Acce$$teched22
+    | Username    | Password     |
+    | :------------- | :------------- |
+    | AD261_XXX <br> where XXX is the user number <br>like AD261_000, AD261_001 etc.      | Acce$$teched22     |
 
       ![](images/AccessSystem_01a.png)
 
@@ -56,3 +57,15 @@ Once you have successfully run the business process, a sales order will be creat
     ![](images/AccessSystem_03.png)
 
 ## Summary
+
+Action feature in **SAP Process Automation**. Action is a mean to connect processes with external systems, be it SAP or non-SAP systems. This is an important piece of the puzzle especially if you want to automate or extend your business processes for any available LoB processes like S/4HANA, Ariba, SuccessFactors etc. These extensions can be easily build using SAP Process Automation, and using Actions you can connect to your given S/4HANA, Ariba or other SAP LoB systems for any kind of GET, POST, PATCH and other calls.
+
+In this workshop, you learnt how to:
+- [x] Create, configure and test Action Project
+- [x] Publish various actions from action project in Action Library
+- [x] Add action published in Action Library in business process
+- [x] Configure action inputs with the business process outputs.
+- [x] Release, Deploy and Run business process with connectivity to the backend system.
+- [x] Check backend system for newly created  business object.
+
+The same scenario can be used for posting an invoice to the S/4HANA system after approval from business process or getting the employee details from SuccessFactors system for off-boarding process or updating purchase requisition details for the changes in the order in Ariba system or getting asset details from Asset Management system before sending it for approval for asset depreciation. There are many such real-world examples where you can use Action concept to create, fetch or update the data in the backend system based on the process outcomes (approval, validation etc.)

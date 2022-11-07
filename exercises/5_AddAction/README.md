@@ -6,11 +6,11 @@
 
 ## Overview <a name="section1"></a>
 
-In this exercise, you will add the Actions project you previously created. You can do this by choosing the proper project from the Actions library, then configuring the Actions parameters.
+In this exercise, you will add the Action in the business process to connect to backend system. You can do this by choosing the relevant action from the Actions library, and then configuring the Action's parameters.
 
 ## Add Actions Project <a name="section2"></a>
 
-1. In the Process canvas, click the **+** button
+1. In the Process Builder canvas, click the **+** button
 
     ![Add Artifact](images/action1.png)
 
@@ -18,22 +18,24 @@ In this exercise, you will add the Actions project you previously created. You c
 
    ![Browse Action](images/action2.png)
 
-3. The Actions library should be shown. Enter your **UserXXX**, where XXX is your user number identifier, to find the Actions project you created
+3. In the Action Library pop up, enter your user number like **UserXXX**, where XXX is your user number identifier, to find the list of actions published by you in the library.
 
    ![Search Action](images/action3.png)
 
-3. Click **Add** on your Actions project
+3. From the filtered list of actions, click **Add** on the action which is to create sales order for your user.
+
+    > This will add the action to connect to backend system in your business process
 
    ![Add Action](images/action4.png)
 
 
 ## Configure Actions Project <a name="section3"></a>
 
-1. Under the **General** tab of your Actions project parameters, choose the corresponding **Destination variable** that you previously created.
+1. In **General** tab of Action parameters, choose the corresponding **Destination variable** that you previously created.
 
 ![Add Destination Variable](images/action5.png)
 
-2. Under the **Inputs** tab of your Actions project parameters, map each input to the proper variable.
+2. Click **Inputs** tab, and map each input to the actual process content.
 
     | Input Field | Process Content |
     |---|---|
@@ -46,12 +48,15 @@ In this exercise, you will add the Actions project you previously created. You c
 
    ![Map Inputs](images/action6.png)
 
-3. Under the **Outputs** tab, check to make sure all outputs are as seen in the image below.
+3. In **Outputs** tab, check to make sure all outputs are same as defined in the action project.
 
    ![Check Outputs](images/action7.png)
-  
 
-4. Route the process accordingly by connecting the output lines from the **Auto Approval Notification** Form and **Order Confirmation Form** to the input of the Actions Project you just added. Connect the output line from the **Order Rejection Notification** Form to the **End** node. Your project should look like the image below.
+
+4. Finally, update the connections of **Order Confirmation Form** activity in the business process such that once the order is confirmed the sales order is created in the backend system.
+
+  - select and delete the output connector from **Order Confirmation Form** to **End** activity.
+  - Drag and drop the **+** in the output connector of **Order Confirmation Form** to the Action activity.
 
     > You can connect these nodes by simply dragging and dropping the lines. If a connected line can't be moved, simply click and delete the line, then drag and drop the resulting unconnected line to the proper node
 
@@ -60,7 +65,11 @@ In this exercise, you will add the Actions project you previously created. You c
 
 ## Summary <a name="section4"></a>
 
-You have successfully added and configured an Actions project.
-    > If needed, you can refer to the [Documentation](https://help.sap.com/docs/PROCESS_AUTOMATION/a331c4ef0a9d48a89c779fd449c022e7/31006f693b6142b2ba6751cf5e2a8b2a.html?version=Cloud)
+You have successfully added and configured an Actions project. You can learn more from [help portal documentation](https://help.sap.com/docs/PROCESS_AUTOMATION/a331c4ef0a9d48a89c779fd449c022e7/31006f693b6142b2ba6751cf5e2a8b2a.html?version=Cloud)
 
-Continue to - [Exercise 7 - ConfigureLaunchpad](../7_ConfigureLaunchpad/README.md)
+In this exercise, you have learnt how to:  
+- [x] Discover Action from Action Library.
+- [x] Add and configure action to the business process .
+- [x] Map input fields of the action to the actual process content.
+
+Continue to - [Exercise 6 - Release And Deploy Process](../6_ReleaseAndDeployProcess/README.md)

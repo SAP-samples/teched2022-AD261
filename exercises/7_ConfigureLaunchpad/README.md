@@ -142,6 +142,6 @@ As the Launchpad site is already created, you will add a new tile to trigger the
 You have successfully created and configured a new tile in SAP Launchpad to run the sales order approval process using the form. In the exercise, you have learnt how to:  
 - [x] Add a process trigger to launchpad site.
 - [x] Configure the process trigger application properties with title, navigation link and translation text.
-- [x] Run the business process using the launchpad tile. 
+- [x] Run the business process using the launchpad tile.
 
 Continue to - [Exercise 8 - Run Business Process](../8_RunBusinessProcess/README.md)

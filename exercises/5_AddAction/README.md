@@ -10,11 +10,11 @@ In this exercise, you will add the Action in the business process to connect to 
 
 ## Add Actions Project <a name="section2"></a>
 
-1. In the Process Builder canvas, click the **+** button
+1. In the Process Builder canvas, click the **+** in output connector of **Auto Approval Notification**
 
     ![Add Artifact](images/action1.png)
 
-2. In the list, choose **Actions**, then **Browse library**
+2. In the list, choose **Actions** > **Browse library**
 
    ![Browse Action](images/action2.png)
 
@@ -55,12 +55,19 @@ In this exercise, you will add the Action in the business process to connect to 
 
 4. Finally, update the connections of **Order Confirmation Form** activity in the business process such that once the order is confirmed the sales order is created in the backend system.
 
-  - select and delete the output connector from **Order Confirmation Form** to **End** activity.
-  - Drag and drop the **+** in the output connector of **Order Confirmation Form** to the Action activity.
+    - select and delete the output connector from **Order Confirmation Form** to **End** activity.
+
+    ![](images/action9.png)
+
+    - Drag and drop the **+** in the output connector of **Order Confirmation Form** to the Action activity.
+
+    ![](images/action10.png)
 
     > You can connect these nodes by simply dragging and dropping the lines. If a connected line can't be moved, simply click and delete the line, then drag and drop the resulting unconnected line to the proper node
 
-   ![Deployed](images/action8.png)
+   The final process should be same as shown below. Ensure that you have the right connections such that *Auto Approval Notification Form* and *Order Confirmation Form* connects to *Action* activity. 
+
+   ![Deployed](images/action11.png)
 
 
 ## Summary <a name="section4"></a>

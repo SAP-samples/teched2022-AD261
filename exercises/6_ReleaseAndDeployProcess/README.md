@@ -20,19 +20,19 @@ There are two possible  situations:
         - Select **Major Changes** to indicate important modifications potentially leading to incompatibility between versions. It updates the first digit of the version number.
 
 
-1. In the Process Builder, click on **Release**
+1. In the Process Builder, click **Release**
 
     ![Release](images/release1.png)
 
-2. For the first version, add a **Version Comment** if needed and click on **Release**
+2.a For the first version, add a **Version Comment** if needed and click **Release**
 
    ![Release first](images/release2.png)
 
-3.  For the additional version, choose the type of version, add a **Version Annotation** if needed and click on **Release**
+2.b For the additional version, choose the type of version, add a **Version Annotation** if needed and click **Release**
 
    ![Release new](images/release3.png)
 
-4. The successfully released project is ready to be deployed
+3. The successfully released project is ready to be deployed
     > If needed, you can refer to the [Documentation](https://help.sap.com/docs/PROCESS_AUTOMATION/a331c4ef0a9d48a89c779fd449c022e7/bcb638ecb98d4e1db8267ecccd8ffdf3.html?version=Cloud)
 
    ![Released](images/release4.png)
@@ -42,23 +42,24 @@ There are two possible  situations:
 
 You can deploy business process projects from each released version of the project in the Process Builder or through Lobby.
 
-1. From the released version of the business process project in the Process Builder, click on **Deploy**
+1. From the released version of the business process project in the Process Builder, click **Deploy**
 
 ![Start Deploy](images/deploy1.png)
 
-2. Fill the **Variables** and click on **Confirm**
+2. From the drop-down select the destination **S4HANACloud_AD261** and click **Confirm**
 
-   > Variables allow you to reuse certain information for a given business process project deployement.
+   > Variables allow you to reuse certain information for a given business process project deployment.
 
    >  You use variables to pass parameters to automations. You can create variables in the Process Builder for which you can later set values when deploying the  business process project. For example, in the current use case, we create a "Destination" variable. Please use destination "S4HANACloud_AD261".
 
    ![Deploy confirm first](images/deploy2.png)
 
-3. Click on **Deploy**
+3. Click **Deploy**
 
    ![Deploy](images/deploy3.png)
 
-4. The successfully deployed project is ready for running and monitoring
+
+   The successfully deployed project is ready for running and monitoring
     > If needed, you can refer to the [Documentation](https://help.sap.com/docs/PROCESS_AUTOMATION/a331c4ef0a9d48a89c779fd449c022e7/d1e6a2d496f24ef1be43c2da8716c3b6.html?version=Cloud)
 
    ![Deployed](images/deploy4.png)

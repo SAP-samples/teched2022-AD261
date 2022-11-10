@@ -73,11 +73,11 @@ In this exercise, we execute the automated process you have created and monitor 
 
 2. In **MyInbox** application, and you will see a new task **Review and Approve order** with the given purchase order number in your inbox.
 
-  > you can also search the inbox items with your purchase order number
+    > you can also search the inbox items with your purchase order number
 
     - Select the acknowledgement checkbox
     - Enter any comment of you choice
-    > This comment will be sent to the requestor during final notification.
+        > This comment will be sent to the requestor during final notification.
 
     - Click **Approve**
 
@@ -88,7 +88,7 @@ In this exercise, we execute the automated process you have created and monitor 
     - Click **Refresh** to get new tasks
     - Select task with your purchase order number having text **Your order PO has been successfully received**  
 
-    > You will see the message from the supplier
+         > You will see the message from the supplier
 
     - Click **Submit** to acknowledge the response from the supplier.
 
@@ -100,7 +100,7 @@ In this exercise, we execute the automated process you have created and monitor 
 1. Go back to the **Monitor** application, select your process instance and observe the **Execution Log**
 
     - **Refresh** the logs from top-right corner of the screen.
-    - You will see the log entry for Action execution which informs you that an POST API for Sales Order has been execution with the given destination configuration.
+    - You will see the log entry for **Action** execution which informs you that a POST API for Sales Order has been executed, with the given destination configuration.
 
     ![](images/RunProcess-08.png)
 

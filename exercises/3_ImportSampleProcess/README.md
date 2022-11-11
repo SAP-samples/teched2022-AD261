@@ -21,4 +21,4 @@ In this exercise, we will import a sample process into your project.
 
 You've now imported a sample process and are ready to configure it, starting with the environment variable
 
-Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
+Continue to - [Exercise 4 - Add environment variable](../4_AddEnvironmentVariable/README.md)

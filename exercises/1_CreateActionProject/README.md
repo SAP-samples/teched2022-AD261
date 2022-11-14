@@ -103,6 +103,9 @@ In this exercise, you will create an action project based on Sales Order API. Th
 
         ![](images/ActionProject_13.png)
 
+        > If you get message like *The following parameter(s) can't be added because they have unsupported definition* in the pop up then scroll down to add the individual attributes.
+        ![](images/ActionProject_24a.png)
+
     - Enter the default value for each of the input fields
 
       |Keys selected as Input| Value
@@ -164,7 +167,7 @@ In this exercise, you will create an action project based on Sales Order API. Th
       ![](images/ActionProject_17.png)
 
       > If you get Gateway Timeout issue while saving, then close the error dialog and refresh the browser.  
-      
+
       > If you see that changes are not saved, then try saving again and refreshing the browser
 
 ## Test Action Project <a name="testAction"></a>

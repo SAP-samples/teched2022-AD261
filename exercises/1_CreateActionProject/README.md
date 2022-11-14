@@ -118,6 +118,12 @@ In this exercise, you will create an action project based on Sales Order API. Th
 
       ![](images/ActionProject_24.png)
 
+    - **Save** the changes.
+
+      > If you get Gateway Timeout issue while saving, then close the error dialog and refresh the browser.  
+
+      > If you see that changes are not saved, then try saving again and refreshing the browser
+
 8. As S/4HANA APIs need CSRF token, click **...** of the POST API on the left panel and select **Enable X-CSRF**
 
   ![](images/ActionProject_14.png)
@@ -156,6 +162,10 @@ In this exercise, you will create an action project based on Sales Order API. Th
     - **Save** the changes
 
       ![](images/ActionProject_17.png)
+
+      > If you get Gateway Timeout issue while saving, then close the error dialog and refresh the browser.  
+      
+      > If you see that changes are not saved, then try saving again and refreshing the browser
 
 ## Test Action Project <a name="testAction"></a>
 

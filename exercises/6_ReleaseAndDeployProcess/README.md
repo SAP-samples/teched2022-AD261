@@ -24,13 +24,13 @@ There are two possible  situations:
 
     ![Release](images/release1.png)
 
-2.a For the first version, add a **Version Comment** if needed and click **Release**
+2. For the first version, add a **Version Comment** if needed and click **Release**
 
-   ![Release first](images/release2.png)
+    ![Release first](images/release2.png)
 
-2.b For the additional version, choose the type of version, add a **Version Annotation** if needed and click **Release**
+   - For the additional version, choose the type of version, add a **Version Annotation** if needed and click **Release**
 
-   ![Release new](images/release3.png)
+       ![Release new](images/release3.png)
 
 3. The successfully released project is ready to be deployed
     > If needed, you can refer to the [Documentation](https://help.sap.com/docs/PROCESS_AUTOMATION/a331c4ef0a9d48a89c779fd449c022e7/bcb638ecb98d4e1db8267ecccd8ffdf3.html?version=Cloud)
@@ -44,13 +44,13 @@ You can deploy business process projects from each released version of the proje
 
 1. From the released version of the business process project in the Process Builder, click **Deploy**
 
-![Start Deploy](images/deploy1.png)
+   ![Start Deploy](images/deploy1.png)
 
 2. From the drop-down select the destination **S4HANACloud_AD261** and click **Confirm**
 
    > Variables allow you to reuse certain information for a given business process project deployment.
 
-   >  You use variables to pass parameters to automations. You can create variables in the Process Builder for which you can later set values when deploying the  business process project. For example, in the current use case, we create a "Destination" variable. Please use destination "S4HANACloud_AD261".
+   >  You use variables to pass parameters to automations. You can create variables in the Process Builder for which you can later set values when deploying the  business process project. For example, in the current use case, we create a *Destination* variable. Please use destination *S4HANACloud_AD261*.
 
    ![Deploy confirm first](images/deploy2.png)
 

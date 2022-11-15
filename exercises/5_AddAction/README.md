@@ -33,7 +33,7 @@ In this exercise, you will add the Action in the business process to connect to 
 
 1. In **General** tab of Action parameters, choose the corresponding **Destination variable** that you previously created.
 
-![Add Destination Variable](images/action5.png)
+    ![Add Destination Variable](images/action5.png)
 
 2. Click **Inputs** tab, and map each input to the actual process content.
 
@@ -44,9 +44,9 @@ In this exercise, you will add the Action in the business process to connect to 
     | PurchaseOrderByCustomer | Order Processing Form > Purchase Order Number |
     | SalesOrderType | Order Processing Form > Sales Order Type |
     | SalesOrganization | Order Processing Form > Sales Organisation |
-    | SoldToParty | Order Processing Form > Shit To Party (Customer) |
+    | SoldToParty | Order Processing Form > Ship To Party (Customer) |
 
-   ![Map Inputs](images/action6.png)
+    ![Map Inputs](images/action6.png)
 
 3. In **Outputs** tab, check to make sure all outputs are same as defined in the action project.
 

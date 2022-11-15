@@ -48,7 +48,7 @@ As the Launchpad site is already created, you will add a new tile to trigger the
 
     ![Default Value Field](images/Launchpad_11a.png)
 
-8. Navigate back to your deployed project in the **Application Development** and do the following:
+8. Navigate back to your deployed project and do the following:
 
     - Check if the **Deployed** version is selected
     - Select **Order Processing** process from the list of artefacts.
@@ -63,7 +63,7 @@ As the Launchpad site is already created, you will add a new tile to trigger the
 
 
 
-9. Now navigate back to the Launchpad and paste the value in the **Default Value** field of the Sales Order Management app's parameters.
+9. Now navigate back to the **Launchpad** and paste the value in the **Default Value** field of the Sales Order Management app's parameters.
 
     ![Default Value](images/Launchpad_13.png)
 

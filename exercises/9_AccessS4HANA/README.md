@@ -58,7 +58,7 @@ Once you have successfully run the business process, a sales order will be creat
 
 ## Summary
 
-Action feature in **SAP Process Automation**. Action is a mean to connect processes with external systems, be it SAP or non-SAP systems. This is an important piece of the puzzle especially if you want to automate or extend your business processes for any available LoB processes like S/4HANA, Ariba, SuccessFactors etc. These extensions can be easily build using SAP Process Automation, and using Actions you can connect to your given S/4HANA, Ariba or other SAP LoB systems for any kind of GET, POST, PATCH and other calls.
+Action is a feature in **SAP Process Automation** to connect processes with external systems, be it SAP or non-SAP systems. This is an important piece of the puzzle especially if you want to automate or extend your business processes for any available LoB processes like S/4HANA, Ariba, SuccessFactors etc. These extensions can be easily build using SAP Process Automation, and using Actions you can connect to your given S/4HANA, Ariba or other SAP LoB systems for any kind of GET, POST, PATCH and other calls.
 
 In this workshop, you learnt how to:
 - [x] Create, configure and test Action Project

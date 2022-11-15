@@ -41,7 +41,7 @@ In this exercise, you will add the Action in the business process to connect to 
     |---|---|
     | DistributionChannel | Order Processing Form > Distribution Channel |
     | OrganizationDivision | Order Processing Form > Division |
-    | PurchaseOrderByCustomer | Order Processing Form > Purchase Order Number |
+    | PurchaseOrderByCustomer | Order Processing Form > Order Number |
     | SalesOrderType | Order Processing Form > Sales Order Type |
     | SalesOrganization | Order Processing Form > Sales Organisation |
     | SoldToParty | Order Processing Form > Ship To Party (Customer) |

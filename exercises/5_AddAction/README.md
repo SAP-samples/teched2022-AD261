@@ -69,6 +69,8 @@ In this exercise, you will add the Action in the business process to connect to 
 
    ![Deployed](images/action11.png)
 
+5. Click **Save** to save your work.
+
 
 ## Summary <a name="section4"></a>
 

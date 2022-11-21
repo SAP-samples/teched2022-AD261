@@ -1,3 +1,5 @@
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2022-AD261)](https://api.reuse.software/info/github.com/SAP-samples/teched2022-AD261)
+
 # AD261 - Extend and Improve Standard Application Processes Easily
 
 ## Description
